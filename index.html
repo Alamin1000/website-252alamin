@@ -23,21 +23,28 @@
 		<!-- offcanvas-start -->
 		<div class="offcanvas-menu">
 			<ul class="offmenu" id="menuParent">
-				<a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-				<li class="active"><a href="#">HOME</a></li>
-				<li><a href="#">ABOUT US</a></li>
-				<li class="dropdown">
-					<a href="#" data-bs-toggle="collapse" data-bs-target='#drop-menu1'>OUR HORSES</a>
-					<div class="dropdown-menu-custom collapse" id="drop-menu1" data-bs-parent="#menuParent">
-						<ul>
-							<li><a href="#">YEARLINGS</a></li>
-							<li><a href="#">2 YEAR OLDS</a></li>
-							<li><a href="#">3 YEAR OLD PLUS</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#">LATEST NEWS</a></li>
-				<li><a href="#">CONTACT & FIND US</a></li>
+				<a href="#" class="offcanvas-close"><i class="far fa-times"></i></a>
+				
+				<div class="mobile-menu">
+					<li><a href="#">How It Works</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</div>
+				<div class="offcanvas-bottom-c">
+					<a href="TEL:01962736824" class="hr-cu">
+						<div class="icon">
+							<img src="images/call.png" alt="">
+						</div>
+						<p>Call Us <br>
+						   <span class="sm color-theme1">01962 736 824</span></p>
+					</a>
+					<a href="#" class="default-button">
+						<img src="images/surveyor.png" alt="" class="if">
+						<span class="txt">I'm a Surveyor</span>
+						<span class="bt-line"></span>
+					</a>
+				</div>
 			</ul>
 		</div>
 		<div class="offcanvas-overlay"></div>
@@ -45,31 +52,36 @@
 
 		<!-- header-section -->
 		<header class="header-section">
-			<div class="container">
-				<div class="header-section-inner">
-					<a href="index.html" class="header-logo">
-						<img src="images/logo.png" alt="">
-					</a>
-					<div class="main-menu">
-						<ul>
-							<li><a href="#">How It Works</a></li>
-							<li><a href="#">FAQs</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div>
-					<div class="header-right">
-						<a href="TEL:01962736824" class="hr-cu">
-							<div class="icon">
-								<img src="images/call.png" alt="">
-							</div>
-							<p>Call Us <br>
-							   <span class="sm color-theme1">01962 736 824</span></p>
+			<div class="header__in">
+				<div class="container">
+					<div class="header-section__inner">
+						<a href="index.html" class="header__logo">
+							<img src="images/logo.png" alt="">
 						</a>
-						<a href="#" class="default-button">
-							<img src="images/surveyor.png" alt="" class="if">
-							<span class="txt">I'm a Surveyor</span>
-							<span class="bt-line"></span>
+						<div class="main-menu d-xl-block d-none">
+							<ul>
+								<li><a href="#">How It Works</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="header__right d-xl-flex d-none">
+							<a href="TEL:01962736824" class="hr-cu">
+								<div class="icon">
+									<img src="images/call.png" alt="">
+								</div>
+								<p>Call Us <br>
+								   <span class="sm color-theme1">01962 736 824</span></p>
+							</a>
+							<a href="#" class="default-button">
+								<img src="images/surveyor.png" alt="" class="if">
+								<span class="txt">I'm a Surveyor</span>
+								<span class="bt-line"></span>
+							</a>
+						</div>
+						<a href="javascript:void(0)" class="offcanvas-open d-xl-none">
+							<i class="far fa-bars"></i>
 						</a>
 					</div>
 				</div>
@@ -80,13 +92,15 @@
 		<main>
 			<!-- hero-section -->
 			<section class="hero-section">
+				<div class="hero__background" style="background: url('images/hero-bg.png') no-repeat center center/cover;"></div>
 				<div class="container">
-					<div class="hero-section-inner">
+					<div class="hero-section__inner">
 						<div class="hero-content">
-							<h1 class="h1"></h1>
-							<a href="#" class="default-button button">
+							<h1 class="h1">Local, vetted and reviewed  <br class="d-md-block d-none">
+								Surrey surveyors</h1>
+							<a href="#" class="default-button default-button--theme2 button">
 								<span class="txt">Get Survey Quotes</span>
-								<i class="fal fa-arrow-right ar-right"></i>
+								<i class="far fa-arrow-right ar-right"></i>
 							</a>
 						</div>
 						<div class="f-trustpilot">
@@ -100,7 +114,7 @@
 			<!-- hw-section -->
 			<section class="hw-section">
 				<div class="container">
-					<div class="hw-section-inner">
+					<div class="hw-section__inner">
 
 						<div class="sec-title hw-section__title cont_blk cont_blk--center">
 							<h2 class="h2">How HitHome Works</h2>
@@ -108,9 +122,9 @@
 						</div>
 
 						<div class="hw-section__main">
-							<div class="hw-card__wrapper row">
+							<div class="hw-card__wrapper row gy-4">
 								<!-- hw-card -->
-								<div class="col-md-4 hw-card__outer">
+								<div class="col-lg-4 col-md-6 hw-card__outer">
 									<div class="hw-card">
 										<div class="icon">
 											<img src="images/hw-shape-1.png" alt="">
@@ -124,7 +138,7 @@
 								</div>
 								<!-- hw-card-end -->
 								<!-- hw-card -->
-								<div class="col-md-4 hw-card__outer">
+								<div class="col-lg-4 col-md-6 hw-card__outer">
 									<div class="hw-card">
 										<div class="icon">
 											<img src="images/hw-shape-2.png" alt="">
@@ -138,7 +152,7 @@
 								</div>
 								<!-- hw-card-end -->
 								<!-- hw-card -->
-								<div class="col-md-4 hw-card__outer">
+								<div class="col-lg-4 col-md-6 hw-card__outer">
 									<div class="hw-card">
 										<div class="icon">
 											<img src="images/hw-shape-3.png" alt="">
@@ -172,9 +186,9 @@
 					<!-- title -->
 					<!-- main-cont -->
 					<div class="sc-section__main">
-						<div class="sc-cards__wrapper row">
+						<div class="sc-cards__wrapper row gy-4">
 							<!-- sc-card -->
-							<div class="col-md-4 sc-card_outer">
+							<div class="col-xl-4 col-md-6 sc-card_outer">
 								<div class="sc-card">
 									<div class="sc-card__top-tne">2</div>
 									<div class="sc-card__icon">
@@ -184,23 +198,23 @@
 										<h3>Level 2 Survey</h3>
 										<p>Lorem Ipsum is simply dummy text of the 
 											printing and typesetting industry.</p>
-										<a href="#" class="default-button default-button--theme1">Get A Quote</a>
+										<a href="#" class="default-button button default-button--theme1">Get A Quote</a>
 									</div>
 								</div>
 							</div>
 							<!-- sc-card-end -->
 							<!-- sc-card -->
-							<div class="col-md-4 sc-card_outer">
+							<div class="col-xl-4 col-md-6 sc-card_outer sc-card--theme2">
 								<div class="sc-card">
 									<div class="sc-card__top-tne">3</div>
 									<div class="sc-card__icon">
-										<img src="images/sc-icon-1.png" alt="">
+										<img src="images/sc-icon-2.png" alt="">
 									</div>
 									<div class="sc-card__texts">
 										<h3>Level 3 Survey</h3>
 										<p>Lorem Ipsum is simply dummy text of the 
 											printing and typesetting industry.</p>
-										<a href="#" class="default-button default-button--theme2">Get A Quote</a>
+										<a href="#" class="default-button button default-button--theme2">Get A Quote</a>
 									</div>
 								</div>
 							</div>
@@ -215,16 +229,20 @@
 
 			<!-- faq-section -->
 			<div class="faq-section">
+				<img src="images/faq-top-shape.png" alt="" class="faq-top-shape">
 				<div class="container">
 					<div class="faq-section__inner">
 						<!-- title -->
 						<div class="sec-title faq-section__title cont_blk cont_blk--center">
-							<h2 class="h2">Frequently Asked Questions</h2>
+							<h2 class="h2">
+								Frequently Asked Questions
+								<img class="h-shape" src="images/faq-h3-shape.png" alt="">
+							</h2>
 						</div>
 						<!-- title-end -->
 						<!-- section-main -->
-						<div class="faq-section__main">
-							<div class="faqs_wrapper" id="faqs-parent">
+						<div class="faq-section__main row justify-content-center">
+							<div class="faqs_wrapper col-xl-8" id="faqs-parent">
 								<!-- single-faq -->
 								<div class="single-faq">
 									<a href="#" class="single-faq__title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-1">
@@ -306,47 +324,41 @@
 			<!-- faq-section-end -->
 
 
-			<!-- faq-section -->
-			<section class="faq-section">
-				<div class="container">
-					<div class="faq-section__inner">
-						
-						<a href="index.html" class="footer__logo">
-							<img src="images/logo-white.png" alt="">
-						</a>
-
-						<ul class="f-menu">
-							<li><a href="#">How it Works</a></li>
-							<li><a href="#">FAQs</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-
-						<ul class="f-social-menu">
-							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-						</ul>
-
-						<p class="fp">
-							HitHome is the trading name of Hit Home Limited. Hit Home Limited is a limited company, registered in England and Wales, company number 11443812. 
-							<br>
-							The registered office is Hit Home Limited, 16 City Business Centre, Suite 233, Hyde Street, Winchester, SO23 7TA. 
-							<br>
-							Copyright 2022 Hit Home Limited. All Rights Reserved.
-						</p>
-
-					</div>
-				</div>
-			</section>
-			<!-- faq-section-end -->
-
 		</main><!-- main end -->
 
 		<!-- footer-section -->
 		<footer class="footer-section">
-			
+			<div class="container">
+				<div class="footer-section__inner">
+						
+					<a href="index.html" class="footer__logo">
+						<img src="images/logo-white.png" alt="">
+					</a>
+	
+					<ul class="f-menu">
+						<li><a href="#">How it Works</a></li>
+						<li><a href="#">FAQs</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+	
+					<ul class="f-social-menu">
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+	
+					<p class="fp">
+						HitHome is the trading name of Hit Home Limited. Hit Home Limited is a limited company, registered in England and Wales, company number 11443812. 
+						<br>
+						The registered office is Hit Home Limited, 16 City Business Centre, Suite 233, Hyde Street, Winchester, SO23 7TA. 
+						<br>
+						Copyright 2022 Hit Home Limited. All Rights Reserved.
+					</p>
+	
+				</div>
+			</div>
 		</footer><!--End footer-section -->
 	</div><!-- main-wrap -->
 	

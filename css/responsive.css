@@ -1,3 +1,166 @@
+@media (max-width: 1599px) {
+    .header__logo {
+        width: 150px;
+    }
+    .main-menu > ul > li > a {
+        font-size: 16px;
+    }
+    .main-menu > ul > li {
+        margin-right: 40px;
+    }
+    .hr-cu .icon {
+        margin: 0 7px 0 0;
+        width: 23px;
+    }
+    .hr-cu p {
+        line-height: 1.35;
+        font-size: 13px;
+    }
+    .default-button .if {
+        margin: 0 11px 0 0;
+        width: 20px;
+    }
+    .default-button {
+        font-size: 18px;
+        padding: 10px 22px;
+        min-height: 60px;
+        border-radius: 20px 20px 20px 0;
+    }
+    .header__in {
+        padding: 18px 0;
+    }
+    :root {
+        --st-radius: 70px;
+    }
+    .hero-content .h1 {
+        font-size: 45px;
+        margin: 0 0 30px;
+    }
+    .default-button .ar-right {
+        font-size: 16px;
+        margin: 0 0 0 10px;
+    }
+    .f-trustpilot {
+        bottom: 26px;
+        width: 110px;
+    }
+    .hero-section__inner {
+        padding: 50px 0;
+        min-height: 500px;
+    }
+    .hr-cu {
+        margin: 0 40px 0 0;
+    }
+
+    .h2 {
+        font-size: 25px;
+        margin: 0px 0 10px;
+    }
+    body {
+        font-size: 16px;
+    }
+    .sec-title {
+        margin: 0 0 45px;
+    }
+    .hw-section {
+        padding: 55px 0;
+    }
+
+
+    .hw-card__outer {
+        --bs-gutter-x: 25px;
+    }
+    .hw-card {
+        padding: 40px 35px 33px 35px;
+        border-radius: 15px;
+    }
+    .hw-card .icon {
+        height: 167px;
+        margin: 0 auto 23px;
+    }
+    .hw-card h3 {
+        font-size: 20px;
+        margin: 0 0 11px;
+    }
+    .hw-card p {
+        font-size: 15px;
+    }
+
+
+    .sc-section {
+        padding: 60px 0;
+    }
+    .sc-card__top-tne {
+        margin: -8px auto -8px;
+        font-size: 54px;
+        height: 80px;
+        width: 80px;
+    }
+    .sc-cards__wrapper {
+        --bs-gutter-x: 25px;
+    }
+    .sc-card {
+        border-radius: 15px 15px 15px 0;
+        padding: 0 40px 12px;
+    }
+
+
+    .faq-top-shape {
+        width: 180px;
+    }
+    .faq-section {
+        padding: 90px 0 60px;
+    }
+    .faq-section__title .h2 .h-shape {
+        right: -53px;
+        top: 0px;
+        width: 40px;
+    }
+    .single-faq__title {
+        padding: 25px 0;
+        font-size: 20px;
+    }
+
+    .single-faq__title .ind {
+        height: 30px;
+        width: 30px;
+        top: 27px;
+        left: -15px;
+    }
+    .single-faq {
+        padding: 0 29px;
+        margin: 0 0 14px;
+        border-radius: 15px;
+    }
+
+
+    .footer__logo {
+        width: 160px;
+        margin: 0 0 40px;
+    }
+    .f-menu li a {
+        font-size: 16px;
+    }
+    .f-menu li {
+        margin-right: 30px;
+    }
+    .f-menu {
+        margin: 0 0 22px;
+    }
+    .f-social-menu li a {
+        font-size: 24px;
+    }
+    .f-social-menu li {
+        margin-right: 30px;
+    }
+    .footer-section {
+        padding: 60px 0 80px;
+    }
+
+
+
+
+}
 
 
 @media (max-width: 1399px) {
@@ -16,7 +179,47 @@
 
 
 @media (max-width: 768px) {
- 
+    .header__logo {
+        width: 120px;
+    }
+    .header__in {
+        padding: 13px 0;
+    }
+
+    .sec-title {
+        margin: 0 0 40px;
+    }
+
+    :root {
+        --st-radius: 40px;
+    }
+    .default-button {
+        font-size: 16px;
+        padding: 10px 20px;
+        min-height: 55px;
+        border-radius: 17px 17px 17px 0;
+    }
+    .hero-content .h1 {
+        font-size: 35px;
+        margin: 0 0 25px;
+    }
+
+
+    .single-faq__title .ind {
+        left: -12px;
+    }
+    .sc-card__texts h3 {
+        font-size: 22px;
+        margin: 0 0 9px;
+    }
+    .h2 {
+        font-size: 22px;
+        margin: 0px 0 10px;
+    }
+
+    .f-menu li {
+        margin-right: 20px;
+    }
 }
 
 

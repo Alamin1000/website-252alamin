@@ -1,3 +1,50 @@
+/* buttons */
+.default-button {
+    font-size: 22px;
+    padding: 10px 28px;
+    min-height: 73px;
+    border-radius: 30px 30px 30px 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 9px 21px 0px rgba(51, 55, 69, 0.28);
+    background: #fff;
+    font-family: var(--filson-pro);
+    position: relative;
+}
+.default-button:hover {
+    background: #fff;
+}
+.default-button .if {
+    margin: 0 15px 0 0;
+}
+.default-button .ar-right {
+    font-size: 19px;
+    margin: 0 0 0 12px;
+}
+.default-button .bt-line {
+	content: '';
+	height: 3px;
+	width: 64%;
+	background: var(--theme__color2);
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+.default-button.default-button--theme1 {
+    background: var(--theme__color1);
+    color: #fff;
+}
+
+.default-button.default-button--theme2 {
+    background: var(--theme__color2);
+    color: #fff;
+}
+/* buttons-end */
+
 /* small-tools */
 .underline {
     text-decoration: underline !important;
