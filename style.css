@@ -1249,6 +1249,11 @@ p:last-child{
   font-family: var(--filson-pro);
   position: relative;
   border: 1px solid transparent;
+  resize: none;
+}
+.input-x.input-x--big {
+  padding-top: 20px;
+  height: 250px;
 }
 
 /* ---input-x---end */
@@ -1574,3 +1579,92 @@ p:last-child{
   line-height: 1.8;
 }
 /* ---team-section---end */
+
+
+
+/* ---title-hero--- */
+.title-hero {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  background: var(--light__bg);
+}
+.title-hero__background {
+  border-radius: 0 0 0 var(--st-radius);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.title-hero__inner {
+  min-height: 351px;
+  display: flex;
+  align-items: center;
+}
+.title-hero__content {
+
+}
+.title-hero__content .h1 {
+  font-size: 52px;
+}
+/* ---title-hero---end */
+
+
+
+/* ---contact-section--- */
+.contact-section {
+  padding: 90px 0;
+  background: var(--light__bg);
+}
+.contact-section__inner {
+
+}
+
+.contact-section__row1 {
+  display: flex;
+}
+.contact__left {
+  width: 34.5%;
+  flex-shrink: 0;
+}
+.contact_lmenu {
+  margin: 0 0 20px;
+}
+.contact_lmenu li {
+  margin: 0 0 4px;
+}
+.contact_lmenu li:last-child {
+
+}
+.contact_lmenu li a {
+
+  transition: 0.3s;
+}
+.contact_lmenu li a:hover {
+  color: var(--theme__color1);
+}
+.contact_l-ia {
+  margin: 0 0 13px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+.contact_l-ia .icon {
+  margin: 0 11px 0 0;
+}
+
+.contact-form {
+
+}
+
+.contact__form .input-x {
+  background: #EAE3DE;
+}
+.contact__form .submit-button {
+  width: 300px;
+  border: none;
+}
+/* ---contact-section---end */

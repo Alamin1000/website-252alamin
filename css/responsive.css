@@ -392,6 +392,28 @@
         max-width: 600px;
         margin: 80px auto 0;
     }
+
+
+    .contact_l-ia {
+        font-size: 14px;
+    }
+    .contact_l-ia .icon {
+        margin: 0 8px 0 0;
+        width: 26px;
+    }
+    .contact__form .submit-button {
+        width: 250px;
+    }
+    .contact-section {
+        padding: 60px 0;
+    }
+
+    .title-hero__content .h1 {
+        font-size: 40px;
+    }
+    .title-hero__inner {
+        min-height: 280px;
+    }
 }
 
 
@@ -529,6 +551,24 @@
     .surveyor-card {
         margin: 0 0 20px;
         padding: 20px;
+    }
+
+
+    .contact-section__row1 {
+        flex-wrap: wrap;
+    }
+    .contact__left {
+        width: 100%;
+        flex-shrink: 0;
+        order: 2;
+        margin: 30px 0 0;
+    }
+
+    .title-hero__content .h1 {
+        font-size: 35px;
+    }
+    .title-hero__inner {
+        min-height: 240px;
     }
 }
 
